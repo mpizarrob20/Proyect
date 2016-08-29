@@ -1,0 +1,18 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.fondo{
+    background-image: url("../img/cine1.JPG");
+}
+
+.fondobody{
+    background-color: lavender;
+}
+
+.letteradmin{
+    color: black;
+}
+
