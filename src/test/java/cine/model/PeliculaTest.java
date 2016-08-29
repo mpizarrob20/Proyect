@@ -43,7 +43,7 @@ public class PeliculaTest {
 
     @Test
     public void contador() throws Exception {
-        Pelicula p = peliculaService.getPelicula(5);
+        Pelicula p = peliculaService.getPelicula(7);
         assertNotNull(p);
 
     }
@@ -59,7 +59,7 @@ public class PeliculaTest {
 
     @Test
     public void delete() {
-        int id = 12;
+        int id = 13;
         Pago pag = pagoService.getPago(id);
         pagoService.deletePago(pag);
         Pago pag1 = pagoService.getPago(id);
@@ -69,7 +69,7 @@ public class PeliculaTest {
 
     @Test
     public void update() {
-        int id = 13;
+        int id = 14;
         String tipoPago = "Tarjeta Banco";
         Pago pagoUpdate = pagoService.getPago(id);
         pagoUpdate.setId(id);
